@@ -1,0 +1,17 @@
+CAR
+
+id - INT - PRIMARY_KEY - AUTO_INCREMENT
+serial-number - VARCHAR(17) NOTNULL-UNIQUE
+brand - VARCHAR(20) NOTNULL-INDEX
+production - year - YEAR-NOTNULL
+moderl - VARCHAR(30) NOTNULL-INDEX
+color - VARCHAR(25) - NULL
+km - SMALLINT - NOTNULL
+euro - TINYINT - NOTNULL
+price - DECIMAL(10,0) - NOTNULL
+trasmission - VARCHAR(30) NOTNULL
+HP - SMALLINT NOTNULL
+gear-type - VARCHAR(30)
+weight-kg - SMALLINT - NULL
+lenght-cm - SMALLINT - NULL
+max-speed - TINYINT-NULL
